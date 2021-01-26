@@ -1,3 +1,3 @@
 steps:
-- name: 'gcr.io/cloud-builders/go'
-  args: ['test', '-v', './...']
+- name: 'golang'
+  args: ['go', 'test', '-v', './...']
