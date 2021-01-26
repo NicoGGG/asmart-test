@@ -1,7 +1,6 @@
 package main
 
 import (
-	"reflect"
 	"testing"
 )
 
@@ -11,3 +10,4 @@ func Test1(t *testing.T) {
 	if r1 != r2 {
 		t.Error("Error during testing")
 	}
+}
