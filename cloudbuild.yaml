@@ -3,3 +3,7 @@ steps:
   args: ['go', 'test', '-v', './...']
 - name: golang
   args: ['go', 'build', '.']
+artifacts:
+  objects:
+    location: '[gs://asmart/build]'
+    paths: ['[.]']
