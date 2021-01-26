@@ -5,5 +5,5 @@ steps:
   args: ['go', 'build', '.']
 artifacts:
   objects:
-    location: '[gs://asmart/build]'
-    paths: ['[.]']
+    location: 'gs://asmart/build'
+    paths: ['./asmart-test']
